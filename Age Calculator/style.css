@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 745px;
+    color: #fff;
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    padding: 10px;
+}
+
+.calculator {
+    width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.calculator h1 {
+    font-size: 60px;
+}
+
+span {
+    color: #ffff76;
+}
+
+.input-box {
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.input-box input {
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+
+
+}
+
+button {
+   margin-right: 45px;
+    padding: 15px 27px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    height: 40px;
+    background-color:#ffff76;
+    border-radius: 5px; 
+    cursor: pointer;
+
+}
+
+
+#result{
+    font-size: 20px;
+}
+#result span{
+    color: #ffff76;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+*{
+    overflow-y: hidden;
+}
+
+} 
+@media only screen and (max-width: 430px) {
+*{
+    overflow: hidden;
+}
+
+
+.calculator {
+
+    width: 350px;
+    margin-top: 130px;
+}
+
+.calculator h1 {
+    font-size: 40px;
+    margin-top: 25px;
+        margin-bottom: 40px;
+}
+
+span {
+    color: #ffff76;
+
+}
+
+.input-box {
+    margin: 10px 0;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.input-box input {
+    margin-right: 20px;
+    padding: 17px 15px;
+    font-size: 12px;
+    height: 30px;
+    width: 210px;
+}
+
+button {
+   margin-right: 0%;
+    padding: 2px 15px;
+    font-size: 10px;
+}
+
+#result{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+} 
+
+@media only screen and (max-width: 380px) {
+.calculator {
+
+    width: 300px;
+
+}
+
+.input-box {
+    padding: 20px;
+    margin-right: 10px;
+}
+
+
+.input-box input {
+    margin-right: 0px;
+    padding: 17px 15px;
+    font-size: 14px;
+    height: 30px;
+    width: 150px;
+}
+
+button {
+   margin-right: 0%;
+    padding: 7px 12px;
+    margin-left: 12px;
+    font-size:12px;
+
+
+}
+}
+
+@media only screen and (max-width: 325px) {
+
+.container{
+  
+        margin-left: -5px;
+}
+.calculator {
+    margin-top: 150px;
+    width: 280px;
+
+}
+.calculator h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.input-box {
+    padding: 10px;
+    margin-right: 15px;
+    padding-right: 0px;
+}
+
+
+.input-box input {
+    margin-right: 0px;
+    padding: 17px 15px;
+    font-size: 14px;
+    height: 30px;
+    width: 150px;
+}
+
+button {
+   margin-right: -30px;
+    padding: 7px 12px;
+    margin-left: 8px;
+    font-size:12px;
+}
+
+#result{
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+}

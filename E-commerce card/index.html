@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="product">
+        <div class="img-container">
+            <img src="images/p1.png" alt="shirt" id="full">
+            <div class="small-img">
+            <img src="images/p1.png" alt="shirt" onclick="myFunction(this)">
+            <img src="images/p2.png" alt="shirt" onclick="myFunction(this)">
+            <img src="images/p3.png" alt="shirt" onclick="myFunction(this)">
+            <img src="images/p4.png" alt="shirt" onclick="myFunction(this)">
+        </div>
+        </div>
+   
+        <div class="content-box">
+            <h2>T-Shirts for Men</h2>
+            <div class="rating-product">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="price">
+                <p>$40</p>
+            </div>
+            <div class="size">
+                <p>Size:</p>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+                <span>XXL</span>
+            </div>
+            <div class="quantity">
+                <p>Quantity:</p>
+        
+                <input type="number" min="1" max="3" value="1" name="display" id="display">
+            
+            </div>
+            <div class="btn-sec">
+                <input type="button" class="btn-1"   value="Add to Cart">
+                <input type="button" class="btn-2"    value="Buy Now">       
+            </div>
+
+    </div>
+      
+    
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
