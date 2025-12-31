@@ -1,0 +1,140 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+    border-bottom:1px dashed black ;
+}
+
+
+.box-1 {
+    height: 415px;
+    width: 250px;
+    border: 2px solid black;
+    margin-top: 5%;
+}
+
+.color-box-blue {
+    background-color: blue;
+    height: 15px;
+}
+
+.color-box-green {
+    height: 12px;
+    width: 100%;
+    background-color: yellowgreen;
+    border-top-left-radius: 80%;
+    border-bottom-right-radius: 90%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo-head {
+    height: 50px;
+    width: 180px;
+    background-color: #f7f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-weight: 800;
+    margin-left: 12%;
+    margin-top: 17px;
+    border-top:2px solid blue ;
+     border-bottom:2px solid blue ;
+}
+.user-img{
+    border: 5px solid yellowgreen;
+    width: 90px;
+    height: 80px;
+    margin-top: 17px;
+    margin-left: 70px;
+}
+.student-id{
+    font-size: 17px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.enroll-course{
+    font-size: 18px;
+     display: flex;
+    justify-content: center;
+}
+
+
+
+
+.box-2 {
+    height: 415px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.back-content{
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.back-content .name{
+    border-bottom: 2px solid black;
+    height: 10px;
+    width: 70%;
+    margin-left: 60px;
+    margin-top: -23px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+}
+.qr-coder{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.note{
+    font-size: 11px;
+    font-weight: 800;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.note span{
+    margin-left: 16px;
+}
+.sign{
+    height: 20px;
+    width: 150px;
+    border-bottom: 3px solid black;
+    margin-left: 19%;
+    margin-top: 12%;
+}
+.issue{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 32%;
+    margin-top: 7px;
+    margin-bottom: 16%;
+}
+
+
+@media only screen and (max-width: 430px) {
+.container{
+    border: none;
+    flex-wrap: wrap;
+}
+.box-2{
+    margin-left: 0%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+    .note{
+        font-size: 10px;
+        margin-left:40px ;
+    }
+}

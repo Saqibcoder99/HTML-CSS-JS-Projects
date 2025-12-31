@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+</head>
+<link rel="stylesheet" href="card.css">
+
+<body>
+    <div class="container">
+
+        <div class="box-1">
+            <div class="color-box-blue"></div>
+            <div class="color-box-green"></div>
+            <div class="logo"><img src="https://www.saylanimit.com/assets/transparent_logo.png" alt="SMIT" width="90px"
+                    height="45px"></div>
+            <div class="logo-head">SAYLANI MASS IT<br /> TRAINING PROGRAM</div>
+            <div class="user-img" ><img src="" alt="" width="90px" height="80px" id="img"></div>
+            <div class="student-information">
+                <p class="student-id" id="front-side-name">Your Name</p>
+                <p class="enroll-course" id="front-side-course">course</p>
+                <p class="student-id">WMA-448250</p>
+            </div>
+            <div class="color-box-green"></div>
+            <div class="color-box-blue"></div>
+        </div>
+        <div class="box-2">
+            <div class="color-box-blue"></div>
+            <div class="color-box-green"></div>
+            <div class="back-content">
+                Name: <div class="name" id="back-side-name"></div>
+                Father: <div class="name"  id="back-side-fname"></div>
+                CNIC:<div class="name"  id="back-side-CNIC"></div>
+                Course: <div class="name"  id="back-side-course"></div>
+            </div>
+            <div class="qr-coder"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=448250"
+                    alt="qr-coder" height="60px" width="60px"></div>
+            <div class="note"><b>Note: </b>This card is for <b>SMIT</b> premises only.<br /> <span>If found please
+                    return to <b>SMIT</b></span></div>
+            <div class="sign"></div>
+            <div class="issue">Issuing authority</div>
+            <div class="color-box-green "></div>
+            <div class="color-box-blue"></div>
+        </div>
+    </div>
+    <script src="card.js"></script>
+</body>
+
+</html>

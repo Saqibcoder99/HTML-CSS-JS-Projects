@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll Course</title>
+  <link rel="stylesheet" href="form.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://www.saylanimit.com/assets/transparent_logo.png" alt="SMIT"
+            width="80px" height="40px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Developing</a></li>
+                <li><a class="dropdown-item" href="#">Designing</a></li>
+                <li><a class="dropdown-item" href="#">Networking</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Campuses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Check Result</a>
+            </li>
+            <button>Enroll now</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <header class="navbar-2">
+    <nav class="navbar bg-body-tertiary fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://www.saylanimit.com/assets/transparent_logo.png" alt="SMIT"
+            width="80px" height="40px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img
+                src="https://www.saylanimit.com/assets/transparent_logo.png" alt="SMIT" width="80px" height="40px"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Developing</a></li>
+                  <li><a class="dropdown-item" href="#">Designing</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Networking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Campuses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Check Result</a>
+              </li>
+              <button>Enroll now</button>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="registration-box">
+    <div class="content">
+      <p class="enroll">Enroll Now</p>
+      <h2>Registration Form</h2>
+      <p>Start your journey towards excellence. Fill out the form to apply for our courses</p>
+    </div>
+  </div>
+  <form onsubmit="getData(event)">
+    <div class="personal-information">
+      <div class="heading"> <i class="fa-regular fa-user"></i><span>Personal Information</span></div>
+      <div class="student-identity">
+        <div class="box-1">
+          <p style="font-weight: 500;">Full Name<sup>*</sup></p>
+          <label class="label">
+            <span class="icon">
+              <i class="fa-regular fa-user"></i>
+            </span>
+            <input type="text" class="input" id="name" placeholder="Enter your full name" autocomplete="off" required="required" />
+          </label>
+          <p style="font-weight: 500;">Email <sup>*</sup></p>
+          <label class="label">
+            <span class="icon">
+              <i class="fa-regular fa-envelope"></i>
+            </span>
+            <input type="text" class="input"  placeholder="your email@example.com" autocomplete="off" required="required" />
+          </label>
+
+          <p style="font-weight: 500;"> ID Number <sup>*</sup></p>
+          <label class="label">
+            <span class="icon">
+              <i class="fa-regular fa-id-card"></i>
+            </span>
+            <input type="number" class="input"  id= "id" placeholder="Enter ID Number" autocomplete="off" required="required" />
+          </label>
+        </div>
+        <div class="box-2">
+          <p style="font-weight: 500;"> Father Name <sup>*</sup></p>
+          <label class="label">
+            <span class="icon">
+              <i class="fa-regular fa-user"></i>
+            </span>
+            <input type="text" class="input" id="F-name"placeholder="Enter Father name" autocomplete="off" required="required" />
+          </label>
+          <p style="font-weight: 500;">Phone <sup>*</sup></p>
+          <label class="label">
+            <span class="icon">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <input type="number" class="input" placeholder="Enter Phone Number" autocomplete="off" required="required" />
+          </label>
+          <p style="font-weight: 500;">Father's ID Number (optional)</p>
+          <label class="label">
+            <span class="icon">
+              <i class="fa-regular fa-id-card"></i>
+            </span>
+            <input type="number" class="input" placeholder="Enter ID Number" autocomplete="off" required="required"/>
+          </label>
+        </div>
+      </div>
+      <div class="box-3">
+        <p style="font-weight: 500;"> Course <sup>*</sup></p>
+        <p><select id="courses" name="courses">
+            <option value="webdev">Web Development </option>
+            <option value="datasci">Data Science</option>
+            <option value="cybersec">Cybersecurity</option>
+            <option value="cloud">Cloud Computing</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="ml">Machine Learning</option>
+            <option value="db">Database Management</option>
+            <option value="networking">Networking</option>
+          </select></p>
+        <p style="font-weight: 500;"> Date of Birth <sup>*</sup></p>
+        <p><input type="date" required="required"></p>
+        <p style="font-weight: 500;"> Address <sup>*</sup>
+        <p style="font-weight: 500;"></p>
+        <p><textarea name="address" required minlength="10" maxlength="220" rows="3"
+            placeholder="Enter your complete address (minimum 10 characters)"></textarea></p>
+      </div>
+      <div class="heading"> <i class="fa-solid fa-upload"></i><span>Upload Picture</span>
+        <div class="upload"> <input type="file" id="upload" required="required" hidden>
+          <label for="upload" class="upload-btn">+ Upload Picture</label>
+        </div>
+      </div>
+       <button class="submit"><i class="fa-regular fa-file"></i>  Submit Registration</button>
+    </div>
+  </form>
+
+<script src="app.js"></script>
+</body>
+
+</html>
