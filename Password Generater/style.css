@@ -1,0 +1,272 @@
+z*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002339;
+    color: #fff;
+}
+.container{
+    margin: 12%;
+    position: fixed;
+    width: 550px;
+}
+.display{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+    
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom:4px solid#019f55;
+}
+.display i{
+    font-size: 30px;
+    color: #019f55;
+    cursor: pointer;
+}
+.display input{
+    border: none;
+    outline: none;
+    font-size: 24px;
+}
+.container button i{
+    font-size: 28px;
+    margin-right: 10px;
+}
+.container button{
+    border: none;
+    outline: none;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width:770px){
+
+
+
+
+.container{
+
+    position: absolute;
+    top: 15%;
+    width: 500px;
+}
+}
+@media only screen and (max-width:430px){
+
+
+
+
+.container{
+
+    margin: 5%;
+    position: absolute;
+    top: 22%;
+    width: 350px;
+}
+.display{
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 11px;
+    border-radius: 5px;
+    
+}
+.container h1{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom:4px solid#019f55;
+}
+.display i{
+    font-size: 18px;
+    margin-left: 7px;
+    color: #019f55;
+    cursor: pointer;
+}
+.display input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.container button i{
+    font-size: 15px;
+    margin-right: 6px;
+}
+.container button{
+    border: none;
+    outline: none;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
+@media only screen and (max-width:380px){
+
+
+
+
+.container{
+
+    margin: 5%;
+    position: absolute;
+    top: 22%;
+    width: 350px;
+}
+.display{
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 11px;
+    border-radius: 5px;
+    
+}
+.container h1{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom:4px solid#019f55;
+}
+.display i{
+    font-size: 15px;
+    margin-left: 7px;
+    color: #019f55;
+    cursor: pointer;
+}
+.display input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.container button i{
+    font-size: 12px;
+    margin-right: 6px;
+}
+.container button{
+    border: none;
+    outline: none;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
+
+@media only screen and (max-width:330px){
+
+.container{
+
+    margin: 5%;
+    position: absolute;
+    top: 20%;
+    width: 250px;
+}
+.display{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 11px;
+    border-radius: 5px;
+    
+}
+.container h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom:4px solid#019f55;
+}
+.display i{
+    font-size: 15px;
+    margin-left: 7px;
+    color: #019f55;
+    cursor: pointer;
+}
+.display input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.container button i{
+    font-size: 12px;
+    margin-right: 6px;
+}
+.container button{
+    border: none;
+    outline: none;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+}
+
+
+
