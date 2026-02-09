@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    margin-left: 8%;
+}
+
+.container-fluid {
+    width: 100%;
+    background-color:#1A237E;
+    color: white;
+    font-size: 18px;
+    font-family: montserrat, "montserrat Fallback";
+}
+.navbar-collapse {
+    margin-left: 40%;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.nav-item a {
+    color: rgb(123 129 138);
+}
+.header{ .nav-item a:hover{
+    color:white;
+}}
+.result a{
+        color: white;
+    border-bottom: 5px solid rgb(28, 115, 196);
+}
+.navbar-2 {
+    visibility: hidden;
+}
+.header button{
+margin-left: 40px;
+}
+nav button {
+    margin-left: 20px;
+    border-radius: 60px;
+    padding: 6px 25px;
+    color: white;
+    background-color: rgb(11 115 183);
+    border: none;
+}
+.student-list{
+    background-color: white;
+    padding: 0px 10px;
+    padding-top: 170px;
+}
+.student-list>.heading{
+    color: #1f2933;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.student-list>p{
+    color: #6b7280;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.card-head{
+    background-color:#1976D2;
+    color: white;
+    display: flex;
+justify-content: space-between;
+    padding: 15px;
+    padding-right: 35px;
+}
+
+.student-detail{
+    display: flex;
+justify-content: space-between;
+    padding: 15px ;
+    align-items: center;
+}
+.student-detail:hover{
+    background-color: #E3F2FD;
+}
+.student-detail> button{
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.student-detail button:hover{
+    background-color: #1565c0;
+}
+@media only screen and (max-width: 430px) {
+    .header {
+        display: none;
+    }
+
+    .navbar-2 {
+        visibility: visible;
+    }
+}

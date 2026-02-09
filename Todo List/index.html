@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="heading">
+                <h1>To-Do List</h1>
+                <img src="https://cdn-icons-png.flaticon.com/512/4436/4436868.png" alt="" height="32px" width="32px">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Add your todo items...." id="input-text">
+                <button id="add-btn">Add</button>
+            </div>
+            <ul>
+               <!-- <li>
+                    Task 1
+                    <div class="icons">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash" ></i>
+                    </div>
+                </li>-->
+            </ul>
+         <div class="clearbox" id="clear" onclick="allClear(this)"> <button >Clear All</button></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

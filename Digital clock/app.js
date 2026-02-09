@@ -7,7 +7,7 @@ document.getElementById("hour").innerHTML=hour
 document.getElementById("min").innerHTML=min
 document.getElementById("sec").innerHTML=sec
 
-if(hour<=12){
+if(hour<12){
     document.getElementById("time").innerHTML="AM"
 }
 else{

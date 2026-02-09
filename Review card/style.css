@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d7dce2;
+
+}
+.container {
+    justify-items: center;
+    align-content: center;
+    height: 700px;
+    width: 100%;
+}
+h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: rgb(7, 7, 78);
+    margin-bottom: 28px;
+}
+h1:hover{
+    padding-bottom: 5px;
+    border-bottom:5px solid rgb(58, 166, 233);
+}
+.card{
+
+    width: 460px;
+    height: 420px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+
+}
+.pic{
+    height: 130px;
+    width: 120px;
+    background-color: rgb(58, 166, 233);
+    border-radius: 50%;
+    margin-left: 35%;
+}
+.pic img{
+    border-radius: 50%;
+    margin-left: -20px;
+}
+.name{
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 700;
+    color: rgb(30, 30, 78);
+    padding-top:20px ;
+}
+.passion{
+    color: rgb(58, 166, 233);
+    font-weight: 700;
+    font-size: 16px;
+}
+.description{
+    padding-top: 7px;
+    color: rgb(16, 68, 101) ;
+}
+.arrow-icons{
+     color: rgb(58, 166, 233);
+     font-weight: 1500;
+     font-size: 17px;
+     padding-top: 20px;
+}
+.arrow-icons i{
+    cursor: pointer;
+}
+.contact-btn button{
+  padding: 7px 15px;
+  font-size: 13px;
+  font-weight: 800;
+  color: rgb(15, 159, 248) ;
+  border: 2px solid  rgb(8, 123, 195);
+  border-radius: 12px;
+  background-color:rgb(171, 219, 249);
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 430px) {
+ .card{
+
+    width: 390px;
+   height: 400px;   
+}
+}
+@media only screen and (max-width: 380px) {
+ .card{
+
+    width: 340px;
+   height: 420px;   
+}
+}
+@media only screen and (max-width: 325px) {
+ .card{
+    height: 450px;
+    width: 290px;   
+}
+}

@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #001e4d;
+}
+
+.head {
+    font-size: 120px;
+    margin-left: 37%;
+    margin-top: 50px;
+    color: #019f55;
+}
+
+.head span {
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.905);
+}
+
+.app {
+    background-color: white;
+    width: 600px;
+    margin: 20px 30%;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.app h2 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.ques {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.ansers>button {
+    background-color: white;
+    color: #222;
+    font-weight: 500;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.ansers>button:hover:not([disabled]) {
+    background-color: #222;
+    color: #fff;
+}
+.ansers>button:disabled{
+    cursor: no-drop;
+}
+
+#next {
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 35%;
+    display: none;
+}
+
+@media only screen and (max-width:1030px) {
+    .app {
+        margin: 120px 20%;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .app {
+        margin: 60px 12%;
+    }
+
+    .head {
+        font-size: 120px;
+        margin-left: 26%;
+        margin-top: 50px;
+        color: #019f55;
+    }
+
+    .head span {
+        font-size: 90px;
+        color: rgba(255, 255, 255, 0.905);
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .app {
+        margin: 70px 4%;
+        width: 400px;
+    }
+
+    #next {
+        margin-left: 30%;
+    }
+
+
+    .head {
+        font-size: 100px;
+        margin-left: 14%;
+        margin-top: 50px;
+        color: #019f55;
+    }
+
+    .head span {
+        font-size: 70px;
+        color: rgba(255, 255, 255, 0.905);
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .app {
+        margin: 60px 4%;
+        width: 350px;
+    }
+
+    #next {
+        margin-left: 23%;
+    }
+
+    .head {
+        font-size: 90px;
+        margin-left: 12%;
+        margin-top: 50px;
+        color: #019f55;
+    }
+
+    .head span {
+        font-size: 60px;
+        color: rgba(255, 255, 255, 0.905);
+    }
+}
+
+@media only screen and (max-width:325px) {
+    .app {
+        margin: 40px 4%;
+        width: 300px;
+    }
+
+    .head {
+        font-size: 80px;
+        margin-left: 12%;
+        margin-top: 50px;
+        color: #019f55;
+    }
+
+    .head span {
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.905);
+    }
+}
+
+.correct {
+    background-color: #9aeabc;
+}
+
+.incorrect {
+    background-color: #ff9393;
+}

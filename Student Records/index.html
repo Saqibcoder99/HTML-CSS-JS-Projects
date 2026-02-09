@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KU Students Lists</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="record.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <!--Navbar-->
+    <div class="display" id="display">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><img src="https://uokadmission.edu.pk/images/logo.png"
+                        alt="KU" width="220px" height="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+ 
+                   
+                        <li class="nav-item result">
+                            <a class="nav-link" href="#">Students Records</a>
+                        </li>
+                        <button>Log Out</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header class="navbar-2">
+        <nav class="navbar bg-body-tertiary fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://uokadmission.edu.pk/images/logo.png"
+                        alt="KU" width="150px" height="80px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img
+                                src="https://uokadmission.edu.pk/images/logo.png" alt="KU" width="150px"
+                                height="80px"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                           
+                       
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Students Records</a>
+                            </li>
+                            <button>Log out</button>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Student Lists-->
+    <div class="student-list">
+     <div class="heading">Student Records</div>
+     <p>View the detailed records of KU Students below.</p>
+     <div class="card" id="card">
+        <div class="card-head">
+            <div class="name">Name</div>
+            <div class="id">ID</div>
+            <div class="result">Actions</div>
+        </div>
+       <!-- <div class="student-detail">
+            <div class="st-name">Ali Ahmed</div>
+            <div class="st-id"> 48801</div>
+            <button>View Record</button>
+        </div>
+                <div class="student-detail">
+            <div class="st-name">Ali Ahmed</div>
+            <div class="st-id"> 48801</div>
+            <button>View Record</button>
+        </div>
+                <div class="student-detail">
+            <div class="st-name">Ali Ahmed</div>
+            <div class="st-id"> 48801</div>
+            <button>View Record</button>
+        </div>
+                <div class="student-detail">
+            <div class="st-name">Ali Ahmed</div>
+            <div class="st-id"> 48801</div>
+            <button>View Record</button>
+        </div>
+                <div class="student-detail">
+            <div class="st-name">Ali Ahmed</div>
+            <div class="st-id"> 48801</div>
+            <button>View Record</button>
+        </div>
+                <div class="student-detail">
+            <div class="st-name">Ali Ahmed</div>
+            <div class="st-id"> 48801</div>
+            <button>View Record</button>
+        </div>-->
+        
+     </div>
+
+    </div>
+</div>
+
+
+
+
+       <div   class="container page" id="container" >
+        <div class="student-record" id="record">
+          <!-- <div class="st-information">
+                <div class="st-name"> Ali Ahmed</div>
+                <div class="st-info">
+                    <div class="id">ID: 48801 <span>|</span> </div>
+                    <div class="program"> BS Computer Science <span>|</span> </div>
+                    <div class="year"> 3rd Year</div>
+                </div>
+            </div>
+            <div class="student-result">
+                <div class="heading">Semester Results</div>
+                <div class="header">
+                    <div class="semes-no">Semester</div>
+                    <div class="marks">Marks</div>
+                    <div class="percent">Percentage</div>
+                    <div class="status">Status</div>
+                </div>
+                <div class="semester">
+                    <div class="sem">Semester 1</div>
+                    <div class="sem-marks">350</div>
+                    <div class="percent">50%</div>
+                    <div class="p-f">Pass</div>
+                </div>
+                <div class="semester">
+                    <div class="sem">Semester 2</div>
+                </div>
+                <div class="semester">
+                    <div class="sem">Semester 3</div>
+                </div>
+                <div class="semester">
+                    <div class="sem">Semester 4</div>
+                </div>
+                <div class="semester">
+                    <div class="sem">Semester 5</div>
+                </div>
+                <div class="footer">
+                    <div class="totals">
+                        <div class="total-marks">
+                            Total marks:
+                        </div>
+                        <div class="no">1660 / 2000</div>
+                    </div>
+                    <div class="percentage">Percentage: <div> 83%</div>
+                    </div>
+                    <div class="final-result">Final Result: <span>Pass</span>
+                    </div>
+                </div>
+            </div>
+            <div class="back"><button>Back to List</button></div>-->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

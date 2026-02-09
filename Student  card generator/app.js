@@ -10,7 +10,7 @@ let studentInformation={
     course:document.getElementById("courses").value,
     Image: reader.result
 };
-//console.log(studentInformation)
+console.log(studentInformation)
 localStorage.setItem("student",JSON.stringify(studentInformation));
     setTimeout(function () {
         window.location.href = "card.html"
