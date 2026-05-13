@@ -9,14 +9,24 @@ body {
 }
 
 .head {
-    font-size: 120px;
-    margin-left: 37%;
-    margin-top: 50px;
+    font-size: 90px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 25px;
     color: #019f55;
 }
-
+.wish{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+}
 .head span {
-    font-size: 90px;
+    font-size: 60px;
     color: rgba(255, 255, 255, 0.905);
 }
 
@@ -28,7 +38,7 @@ body {
     border-radius: 12px;
 }
 
-.app h2 {
+.main {
     font-size: 25px;
     color: #001e4d;
     font-weight: 600;
@@ -45,7 +55,12 @@ body {
     color: #001e4d;
     font-weight: 600;
 }
-
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
 .ansers>button {
     background-color: white;
     color: #222;
@@ -92,18 +107,6 @@ body {
     .app {
         margin: 60px 12%;
     }
-
-    .head {
-        font-size: 120px;
-        margin-left: 26%;
-        margin-top: 50px;
-        color: #019f55;
-    }
-
-    .head span {
-        font-size: 90px;
-        color: rgba(255, 255, 255, 0.905);
-    }
 }
 
 @media only screen and (max-width:430px) {
@@ -115,42 +118,30 @@ body {
     #next {
         margin-left: 30%;
     }
-
-
-    .head {
-        font-size: 100px;
-        margin-left: 14%;
-        margin-top: 50px;
-        color: #019f55;
-    }
-
-    .head span {
+    .head{
         font-size: 70px;
-        color: rgba(255, 255, 255, 0.905);
     }
+    .head span {
+    font-size: 45px;
+}
+
 }
 
 @media only screen and (max-width:380px) {
     .app {
-        margin: 60px 4%;
-        width: 350px;
+        margin: 70px 5%;
+        width: 330px;
     }
 
     #next {
-        margin-left: 23%;
+        margin-left: 24%;
     }
-
-    .head {
-        font-size: 90px;
-        margin-left: 12%;
-        margin-top: 50px;
-        color: #019f55;
+    .head{
+        font-size: 50px;
     }
-
     .head span {
-        font-size: 60px;
-        color: rgba(255, 255, 255, 0.905);
-    }
+    font-size: 40px;
+}
 }
 
 @media only screen and (max-width:325px) {
@@ -159,17 +150,6 @@ body {
         width: 300px;
     }
 
-    .head {
-        font-size: 80px;
-        margin-left: 12%;
-        margin-top: 50px;
-        color: #019f55;
-    }
-
-    .head span {
-        font-size: 50px;
-        color: rgba(255, 255, 255, 0.905);
-    }
 }
 
 .correct {
